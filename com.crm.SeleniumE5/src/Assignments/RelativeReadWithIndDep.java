@@ -1,4 +1,4 @@
-package assignments;
+package Assignments;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
