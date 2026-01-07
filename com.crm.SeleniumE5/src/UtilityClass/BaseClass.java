@@ -14,7 +14,7 @@ public class BaseClass {
 	
 	public static WebDriver driver = null;
 	
-	public static void preCondition(String browser, String url)  {
+	public static void preCondition(String browser, String url)   {
 		
        
 		
@@ -44,7 +44,7 @@ public class BaseClass {
 		}
 		
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		//Thread.sleep(2000);
 		driver.get(url);		
 	}

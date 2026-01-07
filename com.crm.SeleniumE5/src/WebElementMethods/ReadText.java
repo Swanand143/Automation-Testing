@@ -1,4 +1,4 @@
-package WebElementMethods;
+package webElementMethods;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

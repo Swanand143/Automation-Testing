@@ -24,7 +24,7 @@ public class VerifyByTitle {
 			throw new Exception("I am finding defect");
 		}
 	    //Thread.sleep(1000);
-	    driver.close();	
+	    driver.quit();	
 		
 	}
 
